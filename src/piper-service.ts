@@ -115,8 +115,8 @@ export class PiperService {
     // Remove inline code backticks
     processed = processed.replace(/`([^`]+)`/g, '$1');
 
-    // Replace code blocks with placeholder
-    processed = processed.replace(/```[\s\S]*?```/g, '(code block omitted)');
+    // Replace code bags with placeholder
+    processed = processed.replace(/```[\s\S]*?```/g, '(code bag omitted)');
 
     // Remove links, keep text
     processed = processed.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1');

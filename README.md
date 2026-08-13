@@ -1,4 +1,4 @@
-# TTS (Barry Pack)
+# TTS (Barry bag)
 
 Text-to-speech via Piper — speak text aloud with configurable voices.
 
