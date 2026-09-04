@@ -8,12 +8,12 @@ importers:
 
   .:
     dependencies:
+      '@barry-rocks/tools':
+        specifier: link:../../barry/packages/tools
+        version: link:../../barry/packages/tools
       '@barry/logger':
         specifier: link:../../barry/packages/logger
         version: link:../../barry/packages/logger
-      '@barry/tools':
-        specifier: link:../../barry/packages/tools
-        version: link:../../barry/packages/tools
       ioredis:
         specifier: 5.4.1
         version: 5.4.1
