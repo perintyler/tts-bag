@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "@barry-rocks/sdk-bags": "link:../../barry/sdk/bags",
-    "@barry/logger": "link:../../barry/packages/logger",
+    "@barry-rocks/logs-bag": "link:../../barry/harness/telemetry/logs",
+    "@barry-rocks/sdk": "link:../../barry/sdk/lib",
     "ioredis": "5.4.1",
     "zod": "3.25.76"
   },

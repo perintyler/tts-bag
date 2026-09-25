@@ -1,6 +1,6 @@
 import { readFile } from 'fs/promises';
 import { join } from 'path';
-import { createLogger } from "@barry/logger";
+import { createLogger } from "@barry-rocks/logs-bag";
 
 const log = createLogger("mcp-tts", { transport: "stderr" });
 

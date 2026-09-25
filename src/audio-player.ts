@@ -1,7 +1,7 @@
 import { spawn, ChildProcess } from 'child_process';
 import { unlink } from 'fs/promises';
 import { platform } from 'os';
-import { createLogger } from "@barry/logger";
+import { createLogger } from "@barry-rocks/logs-bag";
 
 const log = createLogger("mcp-tts", { transport: "stderr" });
 

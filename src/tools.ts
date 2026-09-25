@@ -1,4 +1,4 @@
-import { defineTool } from "@barry-rocks/sdk-bags";
+import { defineTool } from "@barry-rocks/sdk/bags";
 import { z } from "zod";
 import { state } from "./state.js";
 import { loadConfig, getConfig } from "./config.js";
