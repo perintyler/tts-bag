@@ -1,12 +1,8 @@
 name: tts
 description: Text-to-speech via Piper
 
-tools:
-  entry: tools.ts
-  env:
-    - PIPER_MODELS
-
 dependencies:
-  - name: piper
-    install: pip install piper-tts
+  piper:
     reason: local speech synthesis engine
+    install:
+      macos: pip install piper-tts
