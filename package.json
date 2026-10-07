@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "@barry-rocks/logs-bag": "link:../../barry/builtin/telemetry/logs",
-    "@barry-rocks/sdk": "link:../../barry/sdk/lib",
+    "@barry-rocks/logs-bag": "link:../../barry/bennu/telemetry/logs",
+    "@barry-rocks/sdk": "link:../../barry/sdk",
     "ioredis": "5.4.1",
     "zod": "3.25.76"
   },

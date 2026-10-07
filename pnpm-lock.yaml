@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@barry-rocks/logs-bag':
-        specifier: link:../../barry/builtin/telemetry/logs
-        version: link:../../barry/builtin/telemetry/logs
+        specifier: link:../../barry/bennu/telemetry/logs
+        version: link:../../barry/bennu/telemetry/logs
       '@barry-rocks/sdk':
-        specifier: link:../../barry/sdk/lib
-        version: link:../../barry/sdk/lib
+        specifier: link:../../barry/sdk
+        version: link:../../barry/sdk
       ioredis:
         specifier: 5.4.1
         version: 5.4.1
